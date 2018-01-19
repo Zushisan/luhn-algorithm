@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tes5t": "echo \"Error: no test specified\" && exit 1",
+    "testing": "node luhn-testing.js",
+    "test": "./node_modules/mocha/bin/mocha luhn-testing.js"
   },
   "author": "",
   "license": "ISC",
